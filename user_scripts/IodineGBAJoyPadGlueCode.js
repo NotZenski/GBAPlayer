@@ -23,13 +23,13 @@ var keyZones = [
                 //Left:
                 [65],
                 //Up:
-                [87],
+                [38],
                 //Down:
-                [83],
+                [40],
                 //R:
-                [81],
+                [39],
                 //L:
-                [69]
+                [37]
 ];
 function keyDown(e) {
     var keyCode = e.keyCode | 0;
